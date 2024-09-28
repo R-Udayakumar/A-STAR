@@ -50,7 +50,7 @@
 
 ``````
 ## PROGRAM:
-```
+```python
 from collections import defaultdict
 H_dist ={}
 def aStarAlgo(start_node, stop_node):
@@ -157,7 +157,7 @@ J 0 <br>
 Path found: ['A', 'F', 'G', 'I', 'J']
 
 ## PROGRAM:
-```
+```python
 #define fuction to return neighbor and its distance
 #from the passed node
 def get_neighbors(v):
@@ -168,7 +168,7 @@ def get_neighbors(v):
 def heuristic(n):
     return H_dist[n]
           
-'''Graph_nodes = {
+Graph_nodes = {
     'A': [('B', 6), ('F', 3)],
     'B': [('A', 6), ('C', 3), ('D', 2)],
     'C': [('B', 3), ('D', 1), ('E', 5)],
